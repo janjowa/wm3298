@@ -1,0 +1,192 @@
+.TopLine{
+
+  padding: top 7px;
+background-color: #316DC3;}
+.socialLinks{
+    display: inline;
+    margin-right: 0px;
+    margin-top: 3px;
+    
+    
+}
+.socialLinks img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.socialLinks img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+.widgetTop{
+
+border: 0px;
+
+text-align: center;
+padding: top 7px;
+color: white;
+
+}
+.date{
+font-display: color #00FF00;
+
+    
+}
+/* OUTER CONTAINER */
+.tcontainer {
+    width: 100%;
+    overflow: hidden; /* Hide scroll bar */
+  }
+   
+  /* MIDDLE CONTAINER */
+  .ticker-wrap {
+    width: 100%;
+    padding-left: 100%; /* Push contents to right side of screen */
+    background-color: #316DC3;
+  }
+  
+  /* INNER CONTAINER */
+  @keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+  }
+  .ticker-move {
+    /* Basically move items from right side of screen to left in infinite loop */
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 50s;
+  }
+  .ticker-move:hover{
+    animation-play-state: paused; /* Pause scroll on mouse hover */
+  }
+  
+  /* ITEMS */
+  .ticker-item{
+    display: inline-block; /* Lay items in a horizontal line */
+    padding: 0 2rem;
+  }
+  .StleText h1, h2 {
+    align-items: center;
+    font-style: bold;
+    font-weight: bold;
+    color: blue;
+    /* text-decoration-line: underline;
+      text-decoration-style: wavy; */
+  text-shadow: 3px 3px rgb(206, 202, 202);
+  
+  
+  }
+  
+  .StleText span {
+    color: green;
+    
+  }
+  
+.title-icon [class^="flaticon-"]::after,
+.title-icon [class^="flaticon-"]::before {
+  font-size: 36px;
+  margin-left: 10px;
+}
+.title-icon {
+  margin: 0 auto;
+  max-width: 160px;
+  position: center;
+}
+.title-icon::after {
+  content: "_______";
+  height: 2px;
+  left: 10px;
+  position: center;
+  top: 10px;
+  width: 10px;
+  color: green;
+}
+.title-icon::before {
+  content: "_______";
+  height: 2px;
+  position: center;
+  right: 10px;
+  top: 10px;
+  width: 10px;
+  color: green;
+}
+ 
+.NewPara {
+    text-indent: 2em;
+  }
+
+  .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  }
+  .paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+  }
+  .bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  @media (max-width: 1024px) {
+    .bg-image {
+      background-attachment: scroll;
+    }
+  }
+  .overlay-mf {
+    background-color: #0078ff;
+  }
+  
+  .overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+  }
+  /*--------------------------------------------------------------
+# Counter
+--------------------------------------------------------------*/
+.counter-box {
+    color: #fff;
+    text-align: center;
+  }
+  
+  @media (min-width: 577px) {
+    .counter-box {
+      margin-bottom: 1.8rem;
+    }
+  }
+  
+  .counter-ico {
+    margin-bottom: 1rem;
+  }
+  
+  .counter-ico .ico-circle {
+    height: 40px;
+    width: 40px;
+    line-height: 1.8;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+  
+  .counter-num .counter {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .RespImages{
+   
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+   align-items: left !important;
+   max-width: 100%;
+  }
+  .BottomLine{
+    padding: top 7px;
+background-color: #009933;}
+  }
